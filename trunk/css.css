@@ -1,0 +1,290 @@
+body,td,div,span,form
+{
+	font-size:9pt;
+}
+img
+{
+	border:none;
+	vertical-align:middle;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+}
+code 
+{
+	padding:10px;
+	background:#fff;
+	display:block;
+	border:1px solid deeppink;
+	margin:4px;
+	text-indent:0em;
+}
+form
+{
+	margin:2px;
+}
+/*--功能导航栏中的菜单--*/
+#left-menu
+{
+	margin:0px;
+	padding:0px 4px 0px 8px;
+}
+#left-menu ul
+{
+	padding:0px;
+	margin:0px;
+	display:block;
+}
+#left-menu ul li
+{
+	margin:2px 0px 0px 0px;
+	padding:0px;
+	display:block;
+	width:100%;
+	list-style-type:none;
+}
+#left-menu ul li a
+{
+	display:block;
+	margin:0px;
+	width:100%;
+	padding:4px 0px 2px 20px;
+	color:#fff;
+	border:1px solid #ccc;
+	text-decoration:none;
+	background-color:skyblue;
+	background-image:url(admin/images/left_dot.gif);
+	background-repeat:no-repeat;
+	background-position:5px 4px;
+}
+#left-menu ul li a.link1
+{
+	background-image:url(admin/images/left_dot_2.gif);
+}
+#left-menu ul li a:hover
+{
+	background-color:#ffb6c1;
+}
+#left-menu ul li ul
+{
+	padding:0px;
+	margin:0px 0px 0px 8px;
+	display:none;
+	background-color:#fff;
+}
+#left-menu ul li ul li
+{
+	padding:0px;
+	margin:4px 0px 0px 0px;
+}
+#left-menu ul li ul li a
+{
+	display:block;
+	padding:4px 0px 2px 20px;
+	color:#333;
+	text-decoration:none;
+	background-color:#e2f2ff;
+	background-image:url(admin/images/left_dot_1.gif);
+	background-repeat:no-repeat;
+	background-position:5px center;
+}
+#left-menu ul li ul li a:hover
+{
+	background-color:#a0f0af;
+}
+/*--页面标题--*/
+.page-title
+{
+	margin:10px;
+	padding:4px;
+	border-top:1px solid skyblue;
+	border-bottom:1px solid skyblue;
+	border-right:1px solid skyblue;
+	border-left:2em solid skyblue;
+	color:lightseagreen;
+	width:200px;
+}
+/*--页面内容--*/
+.page-content
+{
+	margin:10px;
+	padding:4px;
+}
+/*--页面底部--*/
+.page-foot
+{
+	padding:4px;
+	margin:10px;
+	text-align:center;
+	background-color:#e2f3ff;
+	border:1px solid #ccc;
+}
+
+
+
+/*--帮助说明--*/
+.help-info
+{
+	margin:10px;
+	padding:4px;
+	color:#333;
+	background:url(images/key.gif) #f2f8ff no-repeat 3px 3px;
+	height:20px;
+	text-indent:2em;
+	border:1px solid #ccc;
+}
+
+/*--功能导航栏中的菜单--*/
+.oper-content
+{
+	margin:10px;
+	padding:4px;
+	border:1px solid #ccc;
+	text-indent:0px;
+}
+.all-border
+{
+	border:1px solid #ccc;
+}
+
+.return-info
+{
+	margin:10px;
+	padding:4px 4px 4px 25px;
+	color:red;
+	background:url(images/info.gif) #f2f8ff no-repeat 5px center;
+	height:20px;
+	border:1px solid deepskyblue;
+}
+
+.table-cell
+{
+	border:1px solid #999;
+	empty-cells:show;
+	border-collapse:collapse;
+}
+/*--按钮--*/
+.button
+{
+	margin:8px;
+}
+.button a
+{
+	border:1px solid #ccc;
+	background:#e0f0ff;
+	padding:4px;
+	text-align:center;
+	text-decoration : none ;
+	display:inline;
+	margin:2px;
+	width:120px;
+}
+.button a:hover
+{
+	background:lightblue;
+}
+/*--网站地图--*/
+.sitemap
+{
+	margin:8px;
+	border:1px solid #ccc;
+}
+.sitemap ul
+{
+	margin:0px;
+	padding;0px;
+}
+.sitemap ul li,.sitemap ul li ul li
+{
+	display:block;
+	width:400px;
+	list-style-type:none;
+	margin:6px;
+	padding:0px;
+}
+.sitemap ul li span
+{
+	border:1px solid orange;
+	padding:2px;
+	display:inline;
+	width:200px;
+	text-align:center;
+	background:lemonchiffon;
+}
+.sitemap ul li a
+{
+	width:60px;
+	border:1px solid #ccc;
+	padding:2px;
+	text-align:center;
+	text-decoration : none ;
+	display:inline;
+	margin:0px 0px 0px 4px;
+	color:orange;
+}
+.sitemap ul li a:hover
+{
+	background:greenyellow;
+}
+.sitemap ul li ul
+{
+	margin:0px 0px 0px 40px;
+}
+.sitemap ul li ul li span
+{
+	border:1px solid #ccc;
+	background:lightcyan;
+}
+/*--表格框架--*/
+table
+{
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #aaa;
+	border-left:1px solid #ccc;
+	border-right:1px solid #aaa;
+	empty-cells:show;
+	border-collapse:collapse;
+}
+.non-border
+{
+	border:0px solid #ccc;
+}
+.non-border td
+{
+	border:0px solid #ccc;
+}
+th
+{
+	font-weight:normal;
+	border:1px solid #ccc;
+	background-color:#eee;
+}
+td
+{
+	font-size:9pt;
+	border:1px solid #ccc;
+}
+.pic-list 
+{
+	padding:4px;
+	margin:2px;
+	width:24%;
+	height:110px;
+}
+.pic-list a 
+{
+	border:4px solid #ccc;
+}
+.pic-list a:hover
+{
+	border:4px solid deeppink;
+}
+.pic-list a img 
+{
+	border:2px solid #fff;
+}
+.pic-list a:hover img 
+{
+	border:2px solid #666;
+}
