@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--
+ * FCKeditor - The text editor for internet
+ * Copyright (C) 2003-2006 Frederico Caldeira Knabben
+ * 
+ * Licensed under the terms of the GNU Lesser General Public License:
+ * 		http://www.opensource.org/licenses/lgpl-license.php
+ * 
+ * For further information visit:
+ * 		http://www.fckeditor.net/
+ * 
+ * "Support Open Source software. What about a donation today?"
+ * 
+ * File Name: fcktemplates.xml
+ * 	This is the sample templates definitions file. It makes the "templates" 
+ * 	command completely customizable.
+ * 	See FCKConfig.TemplatesXmlPath in the configuration file.
+ * 
+ * File Authors:
+ * 		Frederico Caldeira Knabben (fredck@fckeditor.net)
+-->
+<Templates imagesBasePath="fck_template/images/">
+	<Template title="通用页面" image="template1.gif">
+		<Description>用于填写一般的图文内容.</Description>
+		<Html>
+			<![CDATA[
+				<p><img src="/images/m10.gif" width="176" height="150" hspace="18" vspace="10" align="left">　　企业自助建站系统，采用了最先进的建站模式，让建站和维护合理的分离，从而能提供更为强大的功能服务。<br>
+                          　　企业自助建站系统帮助企业方便快捷的创建完全属于自己的网站，无需懂网页制作，让你轻轻松松就可方便地建立企业网站；300多种网页设计模版任意挑选，强大的网站管理系统，强大的数据库管理。您只要会打字，并且希望有一个属于自己的网站的朋友都可以使用。本系统融合了网上商城、产品发布、新闻发布、订单管理、栏目设置、招聘信息发布、高级防攻击留言板、自助在线编辑系统等，目前支持中文简体、繁体及英文三种语言，为把您的企业推向国际市场奠定坚实基础。 
+                          <br>
+                          <br>
+                          <br>
+                          <b><img src="/images/biao3.gif" width="9" height="9" hspace="4"><font color="#D90000">资源管理：</font></b> 
+                          <br>
+                          　　独立的空间，不一样的享受，自己的资源自己管理。独有的自助资源管理系统，让你管理自己站点的资源跟自己电脑上的一样简单。本系统是模仿微软的资源管理器做成的，其使用方便、操作简单受到广大用户的好评。<br>
+                          <b><br>
+                          <img src="/images/biao3.gif" width="9" height="9" hspace="4"><font color="#D90000">在线编辑：</font></b> 
+                          <br>
+                          　　以前我们做网站一般都是先在本地计算机上做好，然后上传到服务器，这种老土的作业方式已经不能适应普通只会打字的网友要求，什么是 
+                          FTP，什么是虚拟主机，什么是默认文档，什么是什么？这些需要专业知识才能看懂的字眼，现在全部的要删除，取而代之的是先进的在线编辑方式，在网络上你就可以完成精明网页的制作，并且立即生效，是不是很神奇。明日网络在线编辑器让这些变为现实，让你用书写 
+                          WORD 的水平来建设你精美的网站！<br>
+                          <br>
+                          <b><img src="/images/biao3.gif" width="9" height="9" hspace="4"><font color="#D90000">网络商城：</font> 
+                          </b><br>
+                          　　在网络上做买卖，做自己的电子商务网站，不再技术活，不再是少数网站的栏目。明日自助建站系统强大的功能里集成了网络商城栏目，让您只需要点点鼠标就可以开始自己的电子商务了。而且内置定单系统，让您的客人更方便购物。<br>
+                          <b><br>
+                          <img src="/images/biao3.gif" width="9" height="9" hspace="4"><font color="#D90000">新闻系统：</font></b> 
+                          <br>
+                          　　在网络上发布企业最新的信息，及时让世界了解你，动态新闻发布系统-这在昨天你还在期望，可是今天您只要有一台可以打字的计算机就可以实现企业新闻的发布。 
+                          <br>
+                          <br>
+                          <b><img src="/images/biao3.gif" width="9" height="9" hspace="4"><font color="#D90000">招聘信息：</font></b> 
+                          <br>
+                          　　在公司的网站上轻松发布招聘信息，企业自助建站系统集成了招聘信息发布系统，简简单单发布自己的招聘信息。<br>
+                          <br>
+                          <b><img src="/images/biao3.gif" width="9" height="9" hspace="4"><font color="#D90000">留言板：</font> 
+                          </b><br>
+                          　　及时了解客户的需要，你需要客户的反馈，系统强大的功能集成了客户反馈功能。<br>
+                          <br>
+                          <b><img src="/images/biao3.gif" width="9" height="9" hspace="4"><font color="#D90000">会员系统：</font></b> 
+                          <br>
+                          　　我们企业自助建站系统还集成了强大的会员系统，让你发展自己的会员，做自己的专业网站！ <br>
+                          <b><br>
+                          <img src="/images/biao3.gif" width="9" height="9" hspace="4"><font color="#D90000">点击完成：</font></b> 
+                          <br>
+                          　　我们企业自助建站系统的所有操作都只需要简单的点击就可以完成。再也不需要繁重的专业技能，只要会用鼠标、键盘就能拥有自己精美的网站。<br>
+                          <br>
+                          <b><img src="/images/biao3.gif" width="9" height="9" hspace="4"><font color="#D90000">多语言： 
+                          </font></b><br>
+                          　　真正支持中文简体、繁体及英文三种语言，为您的企业推向国际化奠定坚实基础。<br>
+                          <b><br>
+                          <img src="/images/biao3.gif" width="9" height="9" hspace="4"><font color="#D90000">自由组合：</font></b> 
+                          <br>
+                          　　栏目不再是死板单调的固定格式，你可以自己命名一个栏目的名称，做自己想做的事。每个栏目都有智能适应能力。创办自己的站点，组合最优秀的栏目。</p>
+                        <p><b><img src="/images/biao3.gif" width="9" height="9" hspace="4"><font color="#D90000">丰富的模板：</font></b><br>
+                          　　共有9类模板： 商业通用 | 集团-企业 | 工业机械 | 教育学术 | 生活娱乐 | 活动展会 | 
+                          会员社区 | 代理专用 | 其它语言。每一种模板的功能和风格都是不一样的，模板数量高达300套，而且定时的更新模板。<br>
+                          <br>
+                          <br>
+                          <br>
+                        </p> 
+			]]>
+		</Html>
+	</Template>
+	<Template title="联系我们" image="template2.gif">
+		<Description>用于填写公司的联系方式的通用模板</Description>
+		<Html>
+			<![CDATA[
+				<table width="85%" border="0" align="center"  cellspacing="0" cellpadding="0">
+                    <tr> 
+                      <td colspan="2">&nbsp;</td>
+                    </tr>
+                    <tr> 
+                      <td height="76" width="16%"> <img src="/images/image_2.gif" width="54" height="54"></td>
+                      <td  height="76" width="84%"><b>我们的联系方式</b><br>
+                        公司名称：XXXXXXXX科技有限公司 <br>
+                        地　址：中国XXX省XXX市XXX路XXXXX号 邮编： 518053<br>
+                        电　话：（8888）8888888　传真：（8888）888888 <br>
+                      </td>
+                    </tr>
+                    <tr> 
+                      <td valign="top" background="/images/image_4.gif" height="1" colspan="2"></td>
+                    </tr>
+                    <tr> 
+                      <td height="32"> 
+                        <p><img src="/images/email.gif" width="57" height="38"><br>
+                        </p>
+                      </td>
+                      <td valign="top" height="32"> 
+                        <p><br>
+                          邮　箱：info@easydiy.com <br>
+                          网　址：http://www.XXXXXX.com.cn <br>
+                          <br>
+                        </p>
+                      </td>
+                    </tr>
+                    <tr > 
+                      <td valign="top" colspan="2" height="1" background="/images/image_4.gif"></td>
+                    </tr>
+                    <tr> 
+                      <td> <img src="/images/image_3.gif" width="57" height="38"><br>
+                      </td>
+                      <td valign="top"> <br>
+                        如果您对我们的服务有什么意见或建议，请致信：<br>
+                        info@easydiy.com <br>
+                        <br>
+                      </td>
+                    </tr>
+                    <tr> 
+                      <td valign="top" colspan="2" height="1" background="/images/image_4.gif"></td>
+                    </tr>
+                    <tr> 
+                      <td><img src="/images/image_3.gif" width="57" height="38"></td>
+                      <td valign="top"><br>
+                        如果您对我们的网站有什么意见或建议，请致信：<br>
+                        master@easydiy.com <br>
+                        <br>
+                      </td>
+                    </tr>
+                    <tr> 
+                      <td valign="top" colspan="2" height="1" background="/images/image_4.gif"></td>
+                    </tr>
+                    <tr> 
+                      <td valign="top" colspan="2" height="70">&nbsp;</td>
+                    </tr>
+                  </table> 
+			]]>
+		</Html>
+	</Template>
+	<Template title="客户服务" image="template3.gif">
+		<Description>用于填写客户服务的内容.</Description>
+		<Html>
+			<![CDATA[
+				<table width="90%" border="0" align="center"  cellspacing="0" cellpadding="0" height="100%">
+                    <tr> 
+                      <td height="2">&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" height="70"><table width="100%" border="0">
+                          <tr> 
+                            <td height="92"> 
+                              <div align="center"><img src="/images/tp800.gif" width="156" height="67"></div></td>
+                            <td><img src="/images/tpfaq.gif" width="156" height="67"></td>
+                            <td><img src="/images/tpweb.gif" width="156" height="67"></td>
+                          </tr>
+                        </table></td>
+                    </tr>
+                    <tr> 
+                      <td valign="top" height="151"> <p><b><font color="#990000">服务政策：</font></b><br>
+                          　 XXXXXX科技有限公司自成立以来秉承集团公司20多年来一贯坚持的"用户至上"的服务理念，从网络服务的特殊性出发，逐步建立了一套完整的遍布全国各地、具有先进管理水平，高效、规范运作的服务保障体系。到目前为止已建成由总部用户服务管理中心、各地分公司服务中心、特约用户服务中心、经销商服务点组成的6000多个用户服务网点。我们的服务人员不仅具有专业化的技术水平，而且具有较强的服务意识，用户无论置身何处，都能享受到精诚、快捷、完善的人性化服务。<br>
+                          <br>
+                          <font color="#990000"><b>服务承诺：</b></font><br>
+                          　　·若有质量问题，15天包换、保修一年 <br>
+                          　　·客户建档，质量跟踪服务 <br>
+                          　　·800免费电话，工程师专线咨询服务 <br>
+                          　　·免费维护、清洗 <br>
+                          　　·异地购机，全国联保 </p>
+                        <p>　　全国免费服务专线：88888888 <br>
+                          　　投诉专线：8888-8888888转123、456</p>
+                        <p><b><font color="#990000">收费标准：</font></b><br>
+                        </p></td>
+                    </tr>
+                    <tr> 
+                      <td valign="top" height="2"> <table width="100%" border="0">
+                          <tr> 
+                            <td height="2" >　　1）网络实名价格<br>
+                              　　　 企业实名 500元/年<br>
+                              　　　 行业实名 8000元/年</td>
+                            <td height="2" >　　2）通用网址<br>
+                              　　　 500元/年</td>
+                          </tr>
+                        </table></td>
+                    </tr>
+                    <tr> 
+                      <td valign="top" height="424"> <b><font color="#990033"><br>
+                        付款方式：</font></b><br> <br> <table cellspacing=1 cellpadding=5 width="98%" align=center 
+                  bgcolor=#cccccc bordercolorlight=#ffffff border=0 >
+                          <tbody>
+                            <tr bgcolor=#ffffff><font color=#ff6633></font> 
+                              <td align=middle width=109 height=7> <p style="LINE-HEIGHT: 150%"><span 
+                        style="FONT-SIZE: 9pt"><font color=#000000><img 
+                        height=28 src="/images/cbb.gif" width=96></font> </span></p></td>
+                              <td align=left width=388 height=7> <p style="LINE-HEIGHT: 150%"><font color=#000000><font 
+                        color=#000000><span style="FONT-SIZE: 9pt"><font 
+                        color=#000000>建设银行公司帐户<br>
+                                  </font></span><font 
+                        color=#333333>单位：XXX市XXXX网络技术有限责任公司 <br>
+                                  开户：XXXXXXXXXXX市建设银行 <br>
+                                  帐号：</font><font color=#000000><font 
+                        color=#000000><font 
+                        color=#333333>8888 8888 8888 8888 8888</font></font></font></font></font></p></td>
+                            </tr>
+                            <tr bgcolor=#ffffff><font color=#ff6633></font> 
+                              <td align=middle width=109 height=7> <p style="LINE-HEIGHT: 150%"><img height=28 
+                        src="/images/ibbank.gif" width=98><span 
+                        style="FONT-SIZE: 9pt"> </span></p></td>
+                              <td align=left width=388 height=7> <p style="LINE-HEIGHT: 150%"><font color=#000000><font 
+                        color=#000000><span style="FONT-SIZE: 9pt"><font 
+                        color=#000000>交通银行太平洋卡</font> </span><br>
+                                  <font 
+                        color=#333333>户名：XXXXXX<br>
+                                  帐号：</font><font color=#000000><font 
+                        color=#000000><font 
+                        color=#333333>8888 8888 8888 8888 8888</font></font></font></font></font></p></td>
+                            </tr>
+                            <tr bgcolor=#ffffff><font color=#ff6633></font> 
+                              <td align=middle width=109 height=7> <p style="LINE-HEIGHT: 150%"><img height=28 
+                        src="/images/icbc.gif" width=98></p></td>
+                              <td align=left width=388 height=7> <p style="LINE-HEIGHT: 150%"><font color=#000000><font 
+                        color=#000000><span style="FONT-SIZE: 9pt"><font 
+                        color=#000000>工商银行活期帐户</font> </span><br>
+                                  <font 
+                        color=#333333>户名：XXXXXX<br>
+                                  帐号：8888 8888 8888 8888 8888</font></font></font></p></td>
+                            </tr>
+                            <tr bgcolor=#ffffff><font color=#ff6633></font> 
+                              <td align=middle width=109 height=7> <p style="LINE-HEIGHT: 150%" align="center"><span 
+                        style="FONT-SIZE: 9pt"><font color=#000000>邮局汇款</font></span></p></td>
+                              <td align=left width=388 height=7> <p style="LINE-HEIGHT: 150%"><font color=#000000>XXXXX<font 
+                        color=#000000>市XXXXXX路XXXXXX号XXXXX商务大厦XXXXX室 <br>
+                                  XXXXXXX网络技术有限责任公司 <br>
+                                  邮编:888888<br>
+                                  备注：因邮局服务质量差，邮局汇款需5-7天，尽量勿用 </font></font></p></td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <br> </td>
+                    </tr>
+                    <tr> 
+                      <td valign="top" height="20"><b><font color="#990000"></td>
+                    </tr>
+                    <tr> 
+                      <td valign="top">&nbsp;</td>
+                    </tr>
+                  </table> 
+			]]>
+		</Html>
+	</Template>
+	
+</Templates>
