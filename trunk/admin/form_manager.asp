@@ -1,4 +1,4 @@
-﻿<!--#include file="../common.asp"-->
+<!--#include file="../common.asp"-->
 <!--#include file="../htmleditor/fckeditor.asp"-->
 <%
 	check_admin
@@ -71,9 +71,9 @@
   第一步：定义你的反馈表单，定义好后可以点击保存进行保存。建议用户修改文件名称，这样就会得到一份新的模板。<br>
   第二步：将反馈表单调用代码复制到你需要使用表单的页面中。<br>
   第三步：切换到源代码模式，把代码粘贴即可！<br>
-  3、请点击<a href="email_para.asp">这里</a>设置你接收客户反馈的电邮地址和电邮主题！<br>
+  3、请点击<a href="email_para.asp">这里</a>设置你接收客户反馈的电邮地址和电邮主题！<!--br>
   4、你还可以点击下面按钮从<a href="http://qiweb.cn" target="_blank">QiWeb.cn</a>下载新模板！ 
-  <div class="button"><a href="template_update.asp?style=form">下载新模板</a></div>
+  <div class="button"><a href="template_update.asp?style=form">下载新模板</a></div-->
   </div>
 <div class="oper-content">
   <table width="95%" border="0" cellpadding="5" cellspacing="0">

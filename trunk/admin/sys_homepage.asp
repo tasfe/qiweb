@@ -1,4 +1,4 @@
-﻿<!--#include file="../common.asp"-->
+<!--#include file="../common.asp"-->
 <%
 	check_admin
 	homepage=db_getvalue("setup_name='homepage'","sys_setup","setup_value")
@@ -24,8 +24,8 @@
 <div class="return-info"><%=return_info%></div>
 <%end if%>
 <div class="help-info">选择首页模版说明： <br>
-  1、单击模版缩图或选择模板链接即可选择该模版<br>2、你还可以点击下面按钮从<a href="http://qiweb.cn" target="qiweb">QiWeb.cn</a>下载新模板！<br>
-	<div class="button"><a href="template_update.asp?style=homepage">下载新模板</a></div>
+  1、单击模版缩图或选择模板链接即可选择该模版<!--br>2、你还可以点击下面按钮从<a href="http://qiweb.cn" target="qiweb">QiWeb.cn</a>下载新模板！<br>
+	<div class="button"><a href="template_update.asp?style=homepage">下载新模板</a--></div>
  <br>
 </div>
 <div class="oper-content"> 

@@ -619,11 +619,7 @@ xml_temp_str=xml_temp_str & "</page>" & vbCRLF
 '进行简繁转换
 if gb_to_big5="true" then
 	xml_temp_str=gb2312_big5(xml_temp_str)
-end If
-If ufomail_request("querystring","viewer")="xml" Then
-	response.write xml_temp_str
-	response.end
-End if
+end if
 set xml = Server.CreateObject("Microsoft.XMLDOM")
 set xsl = Server.CreateObject("Microsoft.XMLDOM")
 xml.async = false
