@@ -1,4 +1,4 @@
-﻿<!--#include file="../common.asp"-->
+<!--#include file="../common.asp"-->
 <%
 on error resume next
 call check_admin()
@@ -79,13 +79,7 @@ call check_admin()
   </a><br>
   6、 YAHOO!!：<a href="http://submit.search.yahoo.com/free/request%20" target="_blank">http://submit.search.yahoo.com/free/request 
   </a></div>
-  <!--
-<div class="page-title">导航类网址登录</div>
-<div class="oper-content"> 1、</div>
--->
-<div class="page-title">网站推广工具下载</div>
-<div class="oper-content"> 欢迎前往：<a href="http://qiweb.cn" target="_blank">QiWeb.cn</a>进行下载！<br>
-<script src="http://www.qiweb.cn/help/tools_download.js" language="JavaScript"></script></div>
+
 <br>
 <br>
 <div class="page-foot"><%=db_getvalue("setup_name='page_foot'","sys_setup","setup_value")%></div><br></body>

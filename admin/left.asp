@@ -1,4 +1,4 @@
-﻿<!--#include file="../common.asp"-->
+<!--#include file="../common.asp"-->
 <!--#include file="../md5.asp"-->
 <%
 check_admin
@@ -98,16 +98,13 @@ check_admin
 	  <ul>
 	    <li><a href="main.asp" target="main">系统版权</a></li>
 	  	<li><a href="../aspcheck.asp" target="main">服务器信息</a></li>
-		<li><a href="http://www.qiweb.cn/help/index.asp" target="main">使用教程和帮助</a></li>
-		<li><a href="http://www.qiweb.cn/help/news.asp" target="main">最新消息</a></li>
-		<li><a href="http://www.qiweb.cn/reg.asp" target="_blank">获得使用授权</a></li>
 	  </ul>
 	</li>
     <li><a href="logout.asp" target="main">退出管理</a></li>
   </ul>
 </div><br>
 <br>
-<div  align="center"><a href="http://qiweb.cn/" target="_blank"><img src="http://qiweb.cn/logo.gif" border="0" alt="企业建站专家系统官方网站"/></a></div>
+<div  align="center">作者：<a href="http://zhuqiyi.com/" target="_blank">天外来信</a></div>
 <script language="JavaScript">
 function menu_change()
 {

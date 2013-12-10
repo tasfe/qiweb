@@ -1,4 +1,4 @@
-﻿<!--#include file="../common.asp"-->
+<!--#include file="../common.asp"-->
 <%
 on error resume next
 call check_admin()
@@ -19,7 +19,7 @@ call check_admin()
   管理账号：admin<br>
   密码：123456<br>
   超级管理密码：123abc<br><br>
-  <div class="button"><a href="count">进入管理界面</a></div>
+  <div class="button"><a href="count/Default.htm">进入管理界面</a></div>
 </div>
 <div class="page-title">使用其它统计系统</div>
 <div class="help-info"> 虽然本系统集成的统计系统功能已经很强大，但是你还是可以调用第三方的统计代码，对网站的流量进行统计。<br>
