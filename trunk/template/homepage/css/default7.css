@@ -1,0 +1,82 @@
+body,td,div,span,form
+{
+	font-size:9pt;
+}
+body
+{
+	text-align:center;
+	background:#00AF00;
+	padding:0;margin:0;
+}
+div
+{
+	
+	margin:0px;
+}
+.page-title
+{
+	font-size:36px;
+	color:#fff;
+	text-align:right;
+	text-indent:1em;
+	height:65px;
+	line-height:65px;
+	background-color:#00AF00;
+	width:769px;
+	margin:0 auto;
+}
+.page-content
+{
+	padding:0px;
+	background:url(../images/bj.jpg) no-repeat left top;
+	height:293px;
+	width:768px;
+	margin:0 auto;
+}
+.left
+{
+	width:42%;
+	float:left;
+	text-align:center;	
+}
+.right
+{
+	width:57%;
+	float:left;
+	text-align:center;	
+}
+.page-foot
+{
+	background-color:#00AF00;
+	height:47px;
+	padding:12px 5px 5px 5px;
+	text-align:center;
+}
+.page-body
+{
+	padding:0px;
+	margin:50px 0px;
+}
+img
+{
+	border:0px solid #ccc;
+}
+.language_button
+{
+	font-size:16px;
+	font-weight:bold;
+	text-decoration:none;
+	color:#fff;
+	display:inline;
+	cursor:hand;
+	margin-left:10px;
+}
+a:hover
+{
+	color:blue;
+}
+.language_button span
+{
+	padding:8px 13px;
+	border:1px solid #fff;
+}

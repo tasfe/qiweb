@@ -1,0 +1,63 @@
+body,td,div,span,form
+{
+	font-size:9pt;
+}
+body
+{
+	text-align:center;
+	background:#CEBD97;
+}
+
+.page-title
+{
+	font-size:36px;
+	color:#FF8000;
+	text-align:left;
+	height:80px;
+	line-height:80px;
+	text-indent:1em;
+	background:#EBE4D4;
+	margin:0 auto;
+}
+.page-content
+{
+	padding:0px;
+	margin:0 auto;
+}
+.page-foot
+{
+	height:65px;
+	padding:12px 5px 5px 5px;
+	text-align:right;
+	background:#EBE4D4;
+	margin:0 auto;
+}
+.page-body
+{
+	border:1px solid #fff;
+	padding:0px;
+	width:776px;
+	margin:80px auto;
+}
+img
+{
+	border:0px solid #ccc;
+}
+.language_button
+{
+	font-size:16px;
+	font-weight:bold;
+	text-decoration:none;
+	filter : progid:DXImageTransform.Glow(enabled=true,color=#FFFFFF,strength=3);
+	color:#333;
+	background:url("../images/1/bt_l.gif") no-repeat left top;
+	padding:6px 0px 8px 13px;
+	display:inline;
+	cursor:hand;
+}
+.language_button span
+{
+	background:url("../images/1/bt_r.gif") no-repeat right top;
+	padding:10px 13px 8px 0px;
+	line-height:30px;
+}
