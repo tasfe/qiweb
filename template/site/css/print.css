@@ -1,0 +1,705 @@
+body,td,div,span,form,th
+{
+	font-size:9pt;
+}
+img
+{
+	border:0px solid #ccc;
+}
+body
+{
+	margin:0cm;
+	padding:0px;
+}
+/*--定义网页顶部--*/
+.page-title
+{
+	position :relative;
+	height:70px;
+}
+qiweb\:body-right-foot
+{
+display:none;
+}
+#line
+{
+	padding:0px;
+	margin:0px;
+}
+#line03
+{
+	display:none;
+}
+#line04
+{
+	display:none;
+}
+#menu
+{
+	display:none;
+}
+.site-logo
+{
+	margin:0px;
+	padding:5px;
+	display:inline;
+}
+.site-name
+{
+	margin:0px;
+	padding:5px;
+	display:inline;
+	font-size:20px;
+}
+/*--定义顶部广告位--*/
+.page-adv
+{
+	display:none;
+}
+/*--定义装饰条--*/
+.page-xp
+{
+	display:none;
+}
+/*--定义主导航菜单--*/
+.page-menu
+{
+	border-top:1px solid #ccc;
+	padding:2px;
+	margin:0px;
+	height:30px;
+}
+.page-menu ul
+{
+	padding:0;
+	margin:0;
+	text-align:left;
+}
+.page-menu ul li
+{
+	display:inline;
+	padding:0px;
+	margin:0px;
+}
+.page-menu ul li a
+{
+	border:1px solid #ccc;
+	padding:4px 6px 2px 6px;
+	margin:2px;
+	text-decoration : none;
+	background:#eee;
+}
+.page-menu ul li a span
+{
+	
+}
+.page-menu ul li a:hover
+{
+	border:1px solid green;
+}
+.page-menu ul li a:hover span
+{
+	color:blue;
+}
+#active-link
+{
+	border:1px solid red;
+}
+#active-link span
+{
+	color:red;
+}
+/*--定义主体内容部分--*/
+.page-body
+{
+	margin:0px;
+	padding:0px;
+	vertical-align:top;
+	height:22cm;
+	position :relative;
+}
+.body-left
+{
+	margin:0px;
+	padding:0px;
+	width:14cm;
+}
+.body-left-title
+{
+	display:none;
+}
+.body-left-title span
+{
+	display:none
+}
+.body-right
+{
+	margin:0px;
+	padding:0px;
+	width:14cm;
+}
+
+.language-button
+{
+	display:none;
+}
+.language-button span
+{
+	width:100%;
+}
+.language-button span a
+{
+	
+	display:none;
+}
+.language-button span a:hover
+{
+	display:none
+}
+/*--公告栏代码--*/
+.news-title
+{
+	display:none;
+}
+.news-content
+{
+	display:none;
+}
+/*--定义产品搜索条--*/
+.page-search
+{
+	display:none;
+}
+.page-search form
+{
+	display:none;
+}
+#keyword
+{
+	display:none;
+}
+/*--定义二级导航条--*/
+.page-nav
+{
+}
+.page-nav ul
+{
+	position :absolute;
+	left:14.2cm;
+	top:1cm;
+	width:2.8cm;
+	padding:4px;
+	margin:2px;
+	border:1px solid #999;
+}
+.page-nav ul li
+{
+	
+}
+.page-nav ul li a
+{
+	text-decoration : none;
+	color:#666;
+}
+.page-nav ul li a:hover
+{
+	
+}
+.flash-musk
+{
+	display:none;
+}
+#nav-link
+{
+	color:red;
+}
+/*--定义友情链接--*/
+.page-link
+{
+	display:none;
+}
+.text-link,.logo-link
+{
+	display:none;
+}
+.logo-link a
+{
+	display:none;
+}
+/*--页面所在位置--*/
+.body-nav
+{
+	display:none;
+}
+/*--页面主要内容--*/
+.body-content
+{
+	padding:4px;
+	text-align:left;
+	font-weight:normal;
+	word-wrap: break-word; 
+	word-break: break-all;
+}
+.body-content img
+{
+	start:expression(onload=function(){if (this.width>=600) this.width=500});
+}
+/*--文章显示样式--*/
+.article-title
+{
+	padding:2px;
+	font-size:26px;
+	font-weight:blod;
+}
+.article-content
+{
+	height:400px;
+	padding:2px;
+}
+.article-date
+{
+	border-top:1px dotted #ccc;
+	text-align:right;
+	padding:2px;
+}
+.article-list
+{
+	padding:2px;
+	border-bottom:1px dotted #ccc;
+	text-align:right;
+}
+.article-list a
+{
+	text-decoration:none;
+	width:400px;
+	float:left;
+	display:block;
+	text-align:left;
+	color:blue;
+}
+.article-list a:hover
+{
+	color:red;
+	background-color:#f2f2ff;
+}
+/*--没有内容时显示的图片--*/
+.page-empty
+{
+	width:100%;
+	height:400px;
+	background-image:url(../images/page-empty.gif);
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+/*--定义显示产品时的样式--*/
+.product-title
+{	
+	padding:2px;
+	background-color:#f2f2ff;
+	border-bottom:1px solid #ccc;
+	font-size:16px;
+}
+.product-price,.product-num
+{
+	padding:8px;
+	font-size:14px;
+	width:200px;
+}
+.product-pic
+{
+	border:1px solid #ccc;
+	margin:4px;
+	padding:2px;
+	float:right;
+}
+.product-content,picture
+{
+	width:100%;
+	clear:both;
+	padding:2px;
+}
+.product_list
+{
+	width:150px;
+	padding:4px;
+	margin:10px;
+	border:1px solid #ccc;
+	text-align:center;
+	display:inline;
+}
+.product_list a
+{
+	display:block;
+	width:100%;
+	text-decoration:none;
+	color:blue;
+	padding:2px;
+	border-top:1px dotted #ccc;
+	background-color:#f2f2ff;
+}
+.product_list a:hover
+{
+	background-color:#e0f0ff;
+}
+/*--定义留言簿样式--*/
+.lyb-list
+{
+	margin:8px;
+	padding:4px;
+	border:1px solid #ccc;
+}
+.lyb-list ul
+{
+	border-bottom:1px solid #ccc;
+	padding:0px;
+	margin:0px;
+	background-color:#f2f2ff;
+}
+.lyb-list ul li
+{
+	width:25%;
+	display:inline;
+	padding:2px;
+	margin:0px;
+}
+.lyb-title
+{
+	padding:2px;
+	font-size:16px;
+	font-weight:blod;
+}
+.lyb-content
+{
+	border:1px dotted #ccc;
+	padding:2px;
+	margin:4px;
+	height:80px;
+}
+.lyb-reply
+{
+	color:blueviolet;
+	border-top:1px solid #ccc;
+	padding:2px;
+	margin:8px 4px 4px 4px;
+}
+/*--操作提示--*/
+.oper-info
+{
+	margin:2px;
+	padding:4px 4px 4px 20px;
+	color:blue;
+	background:url(../images/key.gif) #f2f8ff no-repeat 3px 3px;
+	height:20px;
+}
+/*--留言签写表单样式--*/
+.lyb-button
+{
+	width:100px;
+	text-align:center;
+}
+.lyb-button a
+{
+	text-decoration:none;
+	display:block;
+	background-color:#e0f0ff;
+	border:1px solid #ccc;
+	padding:8px;
+	color:#333;
+}
+.lyb-button a:hover
+{
+	background-color:#f2f0ff;
+	color:orange;
+}
+#lyb-form
+{
+	display:none
+}
+#lyb-form table
+{
+	display:none
+}
+#lyb-form table th
+{
+	display:none
+}
+.inpt-text
+{
+	display:none
+}
+.inpt-bt
+{
+	display:none
+}
+
+/*--定义页面底部--*/
+.page-foot
+{
+	border-top:1px solid #ccc;
+	padding:4px;
+}
+/*--分页标志--*/
+.page-number
+{
+	border-top:1px solid powderblue;
+	border-bottom:1px solid powderblue;
+	padding:2px;
+	width:100%;
+	background:#eee;
+}
+.page-number td
+{
+	border:none;
+}
+input,img
+{
+	vertical-align:middle;
+}
+
+/*-------------------------------------------------------------------------------*/
+/*--表格框架--*/
+.all-border
+{
+	border:1px solid #ccc;
+	empty-cells:show;
+	border-collapse:collapse;
+}
+/*--表格列名--*/
+.all-border th
+{
+	font-weight:normal;
+	border:1px solid #ccc;
+	background-color:#eee;
+}
+.all-border td
+{
+	font-size:9pt;
+	border:1px solid #ccc;
+}
+/*--无边框表格--*/
+.non-border
+{
+	border:0px solid #ccc;
+}
+.non-border td
+{
+	border:0px solid #ccc;
+}
+/*--广告位设置--*/
+#link_adv
+{
+	display:none;
+}
+#content_bottom_adv
+{
+	display:none;
+}
+#page_bottom_adv
+{
+	display:none;
+}
+/*--product-botton(付款按钮)--*/
+.product-botton,.download-botton
+{
+	width:60%;
+	padding:8px;
+	margin:4px;
+}
+.product-botton
+{
+	border-top:1px dotted #ccc;
+}
+.product-botton a,.download-botton a
+{
+	float:left;
+	margin:0px 10px 0px 0px
+	height:30px;
+	text-decoration:none;
+	cursor:hand;
+	text-align:center;
+	border:1px solid #ccc;
+	padding:2px 6px;
+}
+.product-botton a span,.download-botton a span
+{
+}
+.product-botton a:hover span,.download-botton a:hover span
+{
+	color:orange;
+}
+#pd_car_button
+{
+	
+	width:100%;
+	padding:4px;
+	margin:8px;
+}
+#payfor
+{
+	width:100%;
+	padding:4px;
+	margin:8px;
+	text-align:center;
+}
+/*--相册列表所用CSS--*/
+.album_list
+{
+	width:180px;
+	padding:4px;
+	margin:10px;
+	border:1px solid #ccc;
+	text-align:center;
+	display:inline;
+	background:#f0f0ff;
+}
+.album_list a
+{
+	display:block;
+	width:100%;
+	text-decoration:none;
+	color:blue;
+	padding:0px;
+	background-color:#fff;
+}
+.album_list a span
+{
+	display:block;
+	height:20px;
+	background:#f2f8ff;
+	color:#333;
+}
+.album_list a:hover
+{
+	background-color:#e7f2fd;
+}
+/*--软件列表所用CSS--*/
+.software_list
+{
+	width:100%;
+	height:60px;
+	border:1px solid #ccc;
+	margin:8px;
+}
+.software_list div
+{
+	width:100%;
+	padding:2px;
+	margin:0px 0px 1px 0px;
+	height:90px;
+	overflow :hidden;
+	background:#f0f0f0;
+}
+.software_list div span
+{
+	width:120px;
+	height:100%;
+	float:right;
+	border-left:1px solid #ccc;
+	padding:2px;
+	background:#fff;
+}
+.software_list a
+{
+	width:100%;
+	padding:2px 2px 2px 25px;
+	background:#fff url(../images/dot.gif) no-repeat 3px 5px;
+	display:block;
+	border-right:20px solid #ccc;
+	border-bottom:1px solid #ccc;
+	margin:0px 0px 1px 0px;
+}
+.other-link a
+{
+	display:block;
+	margin:4px;
+	padding:4px 4px 4px 25px;
+	border:1px solid #39C81A;
+	background:#fff url(../images/down.gif) no-repeat center left;
+	width:8em;
+	text-decoration:none;
+	color:#39C81A;
+}
+.other-link a:hover
+{
+	padding:4px 4px 4px 30px;
+	color:#bd7803;
+}
+/*--视频列表所用CSS--*/
+.movie_list
+{
+	width:30%;
+	height:60px;
+	border:1px solid #ccc;
+	margin:8px;
+	display:inline;
+}
+.movie_list a 
+{
+	width:100%;
+	height:20px;
+	padding:2px 2px 2px 20px;
+	display:block;
+	background:#fff url(../images/dot.gif) no-repeat 3px 5px;
+	border-right:20px solid #ccc;
+	border-bottom:1px solid #ccc;
+	margin:0px 0px 1px 0px;
+	text-decoration:none;
+	overflow :hidden;
+}
+.movie_list div
+{
+	width:100%;
+	padding:2px;
+	margin:0px 0px 1px 0px;
+	height:160px;
+	overflow :hidden;
+	background:#f0f0f0;
+}
+.movie_list div span
+{
+	margin:2px;
+	border-right:4px solid #ccc;
+	border-bottom:4px solid #ccc;
+	border-left:4px solid #fff;
+	border-top:4px solid #fff;
+	height:120px;
+	width:100%;
+	background:#f2f8ff;
+	overflow :hidden;
+}
+.movie_list div span img
+{
+	border-right:1px solid #fff;
+	border-bottom:1px solid #fff;
+	border-left:1px solid #ddd;
+	border-top:1px solid #ddd;
+}
+.text_movie_play
+{
+	text-align:center;
+	margin:8px;
+	padding:0px;
+}
+.text_movie_play span
+{
+	border:2px solid #ddd;
+	background:#fff url(../images/player_bg.jpg) no-repeat center center;
+	width:470px;
+	padding:12px;
+	height:352px;
+}
+.text_movie_play span object
+{
+	border-top:2px solid #fff;
+	border-right:2px solid #999;
+	border-bottom:2px solid #999;
+	border-left:2px solid #fff;
+}
+#web-code
+{
+	display:none;
+}
+#divStayTopLeft
+{
+	display:none;
+}

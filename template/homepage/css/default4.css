@@ -1,0 +1,64 @@
+body,td,div,span,form
+{
+	font-size:9pt;
+}
+body
+{
+	text-align:center;
+}
+div
+{
+	
+	margin:0px;
+}
+.page-title
+{
+	font-size:36px;
+	color:orange;
+	text-align:left;
+	text-indent:1em;
+	height:65px;
+	line-height:65px;
+	background-image:url(../images/bj-top.jpg);
+}
+.page-content
+{
+	padding:0px;
+}
+.page-foot
+{
+	background-image:url(../images/bj-foot.jpg);
+	height:65px;
+	padding:12px 5px 5px 5px;
+	text-align:right;
+}
+.page-body
+{
+	border:1px solid #999;
+	padding:0px;
+	margin:50px auto;
+	width:779px;
+}
+img
+{
+	border:0px solid #ccc;
+}
+.language_button
+{
+	font-size:16px;
+	font-weight:bold;
+	text-decoration:none;
+	filter : progid:DXImageTransform.Glow(enabled=true,color=#FFFFFF,strength=3);
+	color:#333;
+	background:url("../images/1/bt_l.gif") no-repeat left top;
+	display:inline;
+	cursor:hand;
+	padding:6px 0px 8px 13px;
+	line-height:30px;
+}
+.language_button span
+{
+	background:url("../images/1/bt_r.gif") no-repeat right top;
+	padding:10px 13px 8px 0px;
+	line-height:30px;
+}
